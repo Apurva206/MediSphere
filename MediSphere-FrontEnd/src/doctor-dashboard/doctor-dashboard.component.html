@@ -1,0 +1,125 @@
+<br><br><br>
+<header class="doctor-header">
+    <div class="header-content">
+      <!-- Display Doctor's Name and Role -->
+      <div class="doctor-info">
+        <div>Welcome, <strong>{{ Username }}</strong></div>
+        <div>Role: <strong>{{ role }}</strong></div>
+      </div>
+
+      <h3> {{ role }}'s Dashboard</h3>
+   
+      <!-- Logout Button -->
+      <button class="logout-btn" (click)="logout()">
+        Logout<fa-icon [icon]="faRightFromBracket" style = "margin-left: 10px; left: 2px;"></fa-icon></button>
+    </div>
+  </header>
+  
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <nav class="sidebar" [class.active]="isSidebarOpen">
+      <ul>
+        <li><a class="nav-link" routerLink="/app-doctor-dashboard"  routerLinkActive="active">
+          <fa-icon [icon]="faAddressCard" size= "2x" style = "margin-right: 10px; right: 2px;"></fa-icon>Profile</a></li>
+        <li><a class="nav-link" routerLink="/app-appointments"  routerLinkActive="active">
+          <fa-icon [icon]="faCalendarCheck"size= "2x"style = "margin-right: 10px; right: 2px;"></fa-icon>Appointments</a></li>
+        <li><a class="nav-link" routerLink="/app-medical-records" routerLinkActive="active">
+          <fa-icon [icon]="faNotesMedical" size= "2x"style = "margin-right: 10px; right: 2px;"></fa-icon>Medical Records</a></li>
+        <li><a class="nav-link" routerLink="/app-prescription" routerLinkActive="active">
+          <fa-icon [icon]="faFile" size= "2x"style = "margin-right: 10px; right: 2px;"></fa-icon>Prescriptions</a></li>
+      </ul>
+    </nav>
+    <div class="main-content">
+      <div class="heading">
+        <h2>Your Profile</h2>
+      </div>
+        <!-- Get Appointments Button -->
+        <!-- <div class="get-appointment-btn-container">
+          <button class="get-appointments-btn" (click)="fetchData()" >Get Details</button>
+      </div> -->
+
+      <!-- Input field below the button -->
+    <div class="appointment-id-container">
+      <label for="doctorId" class="appointment-id-label">Enter Your ID:</label>
+      <input type="number" [(ngModel)]="doctorId" name="doctorId" placeholder="Enter your ID">
+    </div><br>
+      <div *ngIf="role === 'Doctor'"  class="get-appointment-btn-container">
+        <button class="get-appointments-btn" (click)="getAppointmentById(doctorId)">Get Profile</button>
+    
+  </div>
+        <!-- Add Appointment Button -->
+        <div class="add-appointment-btn-container">
+          <button class="add-appointment-btn" (click)="addAppointment()">Update Profile</button>
+        </div>
+        <div class="content-wrapper">
+        <div class="appointments-container">
+          <!-- Loop through appointments -->
+          <div class="appointment-card ">
+            <div *ngIf="DoctorObj">
+            <h3>Doctor Details </h3>
+            <p><strong>Doctor ID:</strong> {{ DoctorObj.doctorId }}</p> 
+            <p><strong>User ID:</strong> {{ DoctorObj.userId}} </p>
+            <p><strong>Full Name</strong> {{ DoctorObj.fullName }}  </p>
+            <p><strong>Speciality</strong> {{ DoctorObj.specialty }}</p>
+            <p><strong>Experience</strong> {{ DoctorObj.experience }}</p>
+            <p><strong>Qualification</strong> {{ DoctorObj.qualification }}</p>
+            <p><strong>Designation</strong> {{ DoctorObj.designation }} </p>
+            <p><strong>contact Number</strong> {{ DoctorObj.contactNumber }}</p>
+          </div>
+            <div class="button-container">
+              <button class="reschedule-btn" (click)="onEdit(DoctorObj)" >Edit</button>
+              <!-- <button class="reject-btn" (click)="onReject(appointment)">Reject</button> -->
+            </div>
+          </div>
+        </div>
+      <div *ngIf="isAdding" class="container">
+        <h2>Manage Profile</h2>
+        <form>
+          <div class="form-group">
+            <label for="doctorId">Doctor ID</label>
+            <input [(ngModel)]="DoctorObj.doctorId" id="doctorId" name="doctorId" placeholder="Enter your doctor ID" disabled />
+          </div>
+          <div class="form-group">
+            <label for="userId">User ID</label>
+            <input [(ngModel)]="DoctorObj.userId" id="userId" name="userId" placeholder="Enter your user ID"  />
+          </div>
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input [(ngModel)]="DoctorObj.fullName" type="text" id="fullName" name="fullName" placeholder="Enter your full name" />
+          </div>
+          <div class="form-group">
+            <label for="speciality">Speciality</label>
+            <input [(ngModel)]="DoctorObj.specialty" type="text" id="specialty" name="specialty" placeholder="Enter your specialty" />
+          </div>
+          <div class="form-group">
+            <label for="experience">Experience (Years)</label>
+            <input [(ngModel)]="DoctorObj.experience" type="number" id="experience" name="experience" placeholder="Enter your experience in years" />
+          </div>
+          <div class="form-group">
+            <label for="qualification">Qualification</label>
+            <input [(ngModel)]="DoctorObj.qualification" type="text" id="qualification" name="qualification" placeholder="Enter your qualification" />
+          </div>
+          <div class="form-group">
+            <label for="designation">Designation</label>
+            <input [(ngModel)]="DoctorObj.designation" type="text" id="designation" name="designation" placeholder="Enter your designation" />
+          </div>
+          <div class="form-group">
+            <label for="contactNumber">Contact Number</label>
+            <input [(ngModel)]="DoctorObj.contactNumber" type="tel" id="contactNumber" name="contactNumber" placeholder="Enter your contact number" />
+          </div>
+          @if(DoctorObj.doctorId==0){
+            <button type="submit" (click)="onSubmit()">Submit</button>
+          }
+          @else{
+          <button type="submit" (click)="onUpdate()">Save Changes</button>
+          }
+          <button type="button" (click)="toggleForm()">Cancel</button>
+        </form>
+      </div>
+    </div>
+        <router-outlet></router-outlet> <!-- Dynamic content will be loaded here -->
+      </div>
+    </div>
+    
+  
+  

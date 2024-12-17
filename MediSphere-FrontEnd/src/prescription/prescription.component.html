@@ -1,0 +1,110 @@
+<br><br><br><br><br><br>
+
+  <div class="heading">
+    <h2><fa-icon [icon]="faFile" style = "margin-right: 10px; right: 2px;"></fa-icon>
+      Prescription Management Center</h2>
+    <h3 class="para">Name: {{ Username }}</h3>
+    <h3 class="para">Current Role: {{ role }}</h3>
+  </div>
+    <!-- Get Appointments Button -->
+    <div *ngIf="role === 'Doctor'" class="get-appointment-btn-container">
+    <button class="get-appointments-btn" (click)="getAllUser()">Get Prescription</button>
+  </div>
+  
+  <div *ngIf="role === 'Patient'" class="get-appointment-btn-container">
+    <button class="get-appointments-btn" (click)="getAppointmentById(prescriptionId)">Find Prescription</button>
+  
+    <!-- Input field below the button -->
+    <div class="appointment-id-container">
+      <label for="prescriptionId" class="appointment-id-label">Enter Prescription ID:</label>
+      <input type="number" [(ngModel)]="prescriptionId" name="prescriptionId" placeholder="Enter your Prescription ID">
+    </div>
+  </div>
+
+    <!-- Add Appointment Button -->
+    <div class="add-appointment-btn-container">
+      <button class="add-appointment-btn" (click)="addAppointment()">Generate Prescription</button>
+    </div>
+    
+    
+    <!-- Filter Section -->
+    <!-- <div class="filter">
+      <label for="status">Filter by Status: </label>
+      <select id="status">
+        <option value="">All</option>
+        <option value="pending">Pending</option>
+        <option value="approved">Approved</option>
+        <option value="rejected">Rejected</option>
+      </select>
+    </div> -->
+
+  <div class="appointments-container">
+    <!-- Appointments Table -->
+    <table class="appointments-table">
+      <thead>
+        <tr>
+          <th>PrescriptionId</th>
+          <th>RecordId</th>
+          <th>MedicineName</th>
+          <th>Dosage</th>
+          <th>Frequency</th>
+          <th>FoodInstructions</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dynamically populate the rows using *ngFor -->
+      <tr *ngFor="let prescription of userList">
+        <td>{{ prescription.prescriptionId }}</td>
+        <td>{{ prescription.recordId }}</td>
+        <td>{{ prescription.medicineName }}</td>
+        <td>{{ prescription.dosage }}</td>
+        <td>{{ prescription.frequency }}</td>
+        <td>{{ prescription.foodInstructions }}</td>
+        <td>
+          <div class="button-container">
+          <button class="reschedule-btn" (click)="onEdit(prescription)">
+            <fa-icon [icon]="faPenToSquare" style = "margin-right: 10px; right: 2px;">
+            </fa-icon>
+          </button>
+          <button class="reject-btn" (click)="onDelete(prescription.prescriptionId)">
+            <fa-icon [icon]="faTrash" style = "margin-right: 10px; right: 2px;"></fa-icon>
+          </button>
+        </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div *ngIf="isAdding" class="appointment-form">
+    <h3>Generate Prescription</h3>
+    <form>
+      <label for="prescriptionId">Prescription ID:</label>
+      <input type="number" [(ngModel)]="PrescObj.prescriptionId" name="prescriptionId" disabled/>
+
+      <label for="recordId">Record ID:</label>
+      <input type="number" [(ngModel)]="PrescObj.recordId" name="recordId" />
+
+      <label for="medicineName">Medicine Name</label>
+      <input type="text" [(ngModel)]="PrescObj.medicineName" name="medicineName" />
+
+      <label for="dosage">Dosage</label>
+      <input type="text" [(ngModel)]="PrescObj.dosage" name="dosage" />
+
+      <label for="frequency">Frequency</label>
+      <input type="number" [(ngModel)]="PrescObj.frequency" name="frequency" />
+
+      <label for="foodInstructions">Food Instructions</label>
+      <input type="text" [(ngModel)]="PrescObj.foodInstructions" name="foodInstructions" />
+
+      @if(PrescObj.prescriptionId==0){
+        <button type="submit" (click)="onSubmit()">Submit</button>
+      }
+      @else{
+        <button type="button2" (click)="onUpdate()">Update</button>
+      }
+      
+      <button type="button" (click)="toggleForm()">Cancel</button>
+    </form>
+  </div>
+  </div>
+  

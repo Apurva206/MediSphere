@@ -1,0 +1,256 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f7f6; /* Light grey background for a clean look */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin: 0 auto;
+  color: #2c3e50; /* Darker shade for text */
+}
+
+/* Appointments Container */
+.appointments-container {
+  max-width: 2000px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  border: 1px solid #e1e6e8; /* Subtle border to create separation */
+}
+
+/* Heading */
+.appointments-container h2 {
+  text-align: center;
+  color: #338ba8; /* Light blue for heading */
+  margin-bottom: 20px;
+}
+
+/* Buttons Container */
+.get-appointment-btn-container,
+.add-appointment-btn-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.get-appointments-btn,
+.add-appointment-btn {
+  padding: 12px 20px;
+  background-color: #4caf50; /* Soft green for positive actions */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-appointments-btn:hover,
+.add-appointment-btn:hover {
+  background-color: #45a049; /* Slightly darker green */
+}
+
+/* Filter Section */
+.filter {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #2c3e50; /* Darker text for readability */
+}
+
+.filter select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Flex container for appointments table and form */
+.appointments-flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Appointments Table */
+.appointments-table {
+  flex: 3;
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.appointments-table th,
+.appointments-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.appointments-table th {
+  background-color: #007bff; /* Soft blue for table header */
+  color: white;
+  font-weight: bold;
+}
+
+.appointments-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.appointments-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons in Table */
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.reschedule-btn,
+.reject-btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reschedule-btn {
+  background-color: #ffc107; /* Yellow for reschedule button */
+  color: #333;
+}
+
+.reject-btn {
+  background-color: #dc3545; /* Red for reject button */
+  color: white;
+}
+
+.reschedule-btn:hover {
+  background-color: #e0a800;
+}
+
+.reject-btn:hover {
+  background-color: #c82333;
+}
+
+/* Disabled Buttons */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+/* Appointment Form */
+.appointment-form {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f4f7f6; /* Lighter background to complement the body */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px !important;
+  margin: 0;
+}
+
+/* Form label styles */
+.appointment-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #2c3e50; /* Consistent label color */
+}
+
+/* Form input and select styles */
+.appointment-form input,
+.appointment-form select {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Submit and Cancel button styles */
+.appointment-form button {
+  width: 30%;
+  padding: 10px;
+  background-color: #4caf50; /* Green submit button */
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.appointment-form button[type="button"] {
+  background-color: #f44336; /* Red cancel button */
+}
+
+.appointment-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.appointment-form button[type="button"]:hover {
+  background-color: #f52a1b;
+}
+/* Style for the container around the input field */
+.appointment-id-container {
+  margin-top: 15px; /* Adds space between the button and the input */
+}
+
+/* Style for the label */
+.appointment-id-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Style for the input field */
+#appointmentId {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Optional: Focus effect on input */
+#appointmentId:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .appointments-flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .appointments-table {
+    width: 100%;
+  }
+
+  .appointment-form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,114 @@
+<br><br><br><br><br><br>
+
+  <div class="heading">
+    <h2><fa-icon [icon]="faNotesMedical" style = "margin-right: 10px; right: 2px;"></fa-icon>
+      Medical Record Action Center</h2>
+    <h3 class="para">Name: {{ Username }}</h3>
+    <h3 class="para">Current Role: {{ role }}</h3>
+  </div>
+  <div *ngIf="role === 'Doctor'" class="get-appointment-btn-container">
+    <button class="get-appointments-btn" (click)="getAllUser()">Get Records</button>
+  </div>
+  
+  <div *ngIf="role === 'Patient'" class="get-appointment-btn-container">
+    <button class="get-appointments-btn" (click)="getAppointmentById(recordId)">Find Records</button>
+  
+    <!-- Input field below the button -->
+    <div class="appointment-id-container">
+      <label for="recordId" class="appointment-id-label">Enter Record ID:</label>
+      <input type="number" [(ngModel)]="recordId" name="appointmentId" placeholder="Enter your Record ID">
+    </div>
+  </div>
+    
+  <div class="add-appointment-btn-container">
+    <button class="add-appointment-btn" (click)="addRecord()">Generate Record</button>
+  </div>
+    <!-- Filter Section -->
+    <!-- <div class="filter">
+      <label for="status">Filter by Status: </label>
+      <select id="status">
+        <option value="">All</option>
+        <option value="pending">Pending</option>
+        <option value="approved">Approved</option>
+        <option value="rejected">Rejected</option>
+      </select>
+    </div> -->
+
+  <div class="appointments-container">
+    <!-- Appointments Table -->
+    <table class="appointments-table">
+      <thead>
+        <tr>
+          <th>RecordId</th>
+          <th>PatientId</th>
+          <th>DoctorId</th>
+          <th>AppointmentId</th>
+          <th>Symptoms</th>
+          <th>ConsultationDate</th>
+          <th>TreatmentPlan</th>
+          <th>PrescribedTests</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dynamically populate the rows using *ngFor -->
+      <tr *ngFor="let Record of userList">
+        <td>{{ Record.recordId }}</td>
+        <td>{{ Record.patientId }}</td>
+        <td>{{ Record.doctorId }}</td>
+        <td>{{ Record.appointmentId }}</td>
+        <td>{{ Record.symptoms }}</td>
+        <td>{{ Record.consultationDate }}</td>
+        <td>{{ Record.treatmentPlan}}</td>
+        <td>{{ Record.prescribedTests }}</td>
+        <td>
+          <div class="button-container">
+          <button class="reschedule-btn" (click)="onEdit(Record)">
+            <fa-icon [icon]="faPenToSquare" style = "margin-right: 10px; right: 2px;"></fa-icon>
+          </button>
+          <button class="reject-btn" (click)="onDelete(Record.recordId)">
+            <fa-icon [icon]="faTrash" style = "margin-right: 10px; right: 2px;"></fa-icon>
+          </button>
+        </div>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+  <div *ngIf="isAdding" class="appointment-form">
+    <h3>Generate Record</h3>
+    <form>
+      <label for="recordId">Record ID:</label>
+      <input type="number" [(ngModel)]="RecordObj.recordId" name="recordId" disabled/>
+
+      <label for="patientId">Patient ID:</label>
+      <input type="number" [(ngModel)]="RecordObj.patientId" name="patientId" />
+
+      <label for="doctorId">Doctor ID:</label>
+      <input type="number" [(ngModel)]="RecordObj.doctorId" name="doctorId" />
+
+      <label for="appointmentId">Appointment ID:</label>
+      <input type="number" [(ngModel)]="RecordObj.appointmentId" name="appointmentId" />
+
+      <label for="symptoms">Symptoms:</label>
+      <input type="text" [(ngModel)]="RecordObj.symptoms" name="symptoms" />
+
+      <label for="consultationDate">Consultation Date:</label>
+      <input type="date" [(ngModel)]="RecordObj.consultationDate" name="consultationDate" />
+
+      <label for="treatmentPlan">Treatment Plan</label>
+      <input type="text" [(ngModel)]="RecordObj.treatmentPlan" name="treatmentPlan" />
+    
+      <label for="prescribedTests">Prescribed Tests</label>
+      <input type="text" [(ngModel)]="RecordObj.prescribedTests" name="prescribedTests" />
+
+      @if(RecordObj.recordId==0){
+        <button type="submit" (click)="onSubmit()">Submit</button>
+      }
+      @else{
+        <button type="button" (click)="onUpdate()">Update</button>
+      }
+      
+      <button type="button" (click)="toggleForm()">Cancel</button>
+    </form>
+  </div>
+  </div>
+  

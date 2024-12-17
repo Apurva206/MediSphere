@@ -1,0 +1,121 @@
+<br><br><br><br><br><br>
+
+  <div class="heading">
+    <h2><fa-icon [icon]="faCalendarCheck" style = "margin-right: 10px; right: 2px;"></fa-icon>
+      Appointment Action Center</h2>
+      <h3 class="para">Name: {{Username}}</h3>
+    <h3 class="para">Current Role: {{ role }}</h3>
+  </div>
+ 
+    <!-- Get Appointments Button -->
+    <div *ngIf="role === 'Doctor'" class="get-appointment-btn-container">
+      <button class="get-appointments-btn" (click)="getAllUser()">Get Appointments</button>
+    </div>
+    
+    <div *ngIf="role === 'Patient'" class="get-appointment-btn-container">
+      <button class="get-appointments-btn" (click)="getAppointmentById(appointmentId)">Find Appointment</button>
+    
+      <!-- Input field below the button -->
+      <div class="appointment-id-container">
+        <label for="appointmentId" class="appointment-id-label">Enter Appointment ID:</label>
+        <input type="number" [(ngModel)]="appointmentId" name="appointmentId" placeholder="Enter your appointment ID">
+      </div>
+    </div>
+    
+
+    <!-- Add Appointment Button -->
+    <div class="add-appointment-btn-container">
+      <button class="add-appointment-btn" (click)="addAppointment()">Appointment Form</button>
+    </div>
+    
+    
+    <!-- Filter Section -->
+    <div class="filter">
+      <label for="status">Filter by Status: </label>
+      <select id="status" [(ngModel)]="selectedStatus" (change)="applyFilter()">
+        <option value="">All</option>
+        <option value="pending">pending</option>
+        <option value="approved">approved</option>
+        <option value="rejected">rejected</option>
+      </select>
+    </div>
+    <!-- Filtered List -->
+<!-- <ul>
+  <li *ngFor="let item of filteredList">{{ item.name }} ({{ item.status }})</li>
+</ul> -->
+
+  <div class="appointments-container">
+    <!-- Appointments Table -->
+    <table class="appointments-table">
+      <thead>
+        <tr>
+          <th>AppointmentId</th>
+          <th>PatientId</th>
+          <th>DoctorId</th>
+          <th>AppointmentDate</th>
+          <th>Status</th>
+          <th>Symptoms</th>
+          <th>ConsultaionNotes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dynamically populate the rows using *ngFor -->
+      <tr *ngFor="let appointment of filteredList">
+        <td>{{ appointment.appointmentId }}</td>
+        <td>{{ appointment.patientId }}</td>
+        <td>{{ appointment.doctorId }}</td>
+        <td>{{ appointment.appointmentDate }}</td>
+        <td>{{ appointment.status }}</td>
+        <td>{{ appointment.symptoms }}</td>
+        <td>{{ appointment.consultationNotes }}</td>
+        <td>
+          <div class="button-container">
+          <button class="reschedule-btn" (click)="onEdit(appointment)">
+            <fa-icon [icon]="faPenToSquare" style = "margin-right: 10px; right: 2px;"></fa-icon></button>
+          <button class="reject-btn" (click)="onDelete(appointment.appointmentId)">
+            <fa-icon [icon]="faTrash" style = "margin-right: 10px; right: 2px;"></fa-icon>
+          </button>
+        </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div *ngIf="isAdding" class="appointment-form">
+    <h3>Appointment Form</h3>
+    <form>
+      <label for="appointmentId">Appointment ID:</label>
+      <input type="number" [(ngModel)]="AppointmentObj.appointmentId" name="appointmentId" disabled/>
+
+      <label for="patientId">Patient ID:</label>
+      <input type="number" [(ngModel)]="AppointmentObj.patientId" name="patientId" />
+
+      <label for="doctorId">Doctor ID:</label>
+      <input type="number" [(ngModel)]="AppointmentObj.doctorId" name="doctorId" />
+
+      <label for="appointmentDate">Appointment Date:</label>
+      <input type="date" [(ngModel)]="AppointmentObj.appointmentDate" name="appointmentDate" />
+
+      <label for="status">Status:</label>
+      <select [(ngModel)]="AppointmentObj.status" name="status">
+        <option value="pending">Pending</option>
+        <option value="approved">Approved</option>
+        <option value="rejected">Rejected</option>
+      </select>
+
+      <label for="symptoms">Symptoms:</label>
+      <input type="text" [(ngModel)]="AppointmentObj.symptoms" name="symptoms" />
+
+      <label for="consultationNotes">Consultation Notes:</label>
+      <input type="text" [(ngModel)]="AppointmentObj.consultationNotes" name="consultationNotes" />
+
+      @if(AppointmentObj.appointmentId==0){
+        <button type="submit" (click)="onSubmit()">Submit</button>
+      }
+      @else{
+        <button type="button2" (click)="onUpdate()">Update</button>
+      }
+      
+      <button type="button" (click)="toggleForm()">Cancel</button>
+    </form>
+  </div>
+  </div>
