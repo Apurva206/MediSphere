@@ -1,0 +1,6 @@
+@MediSphereTest_HostAddress = http://localhost:5169
+
+GET {{MediSphereTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
