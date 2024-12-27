@@ -1,0 +1,772 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\medicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\medicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\data\\medispheredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:data\\medispheredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\imedicalrecordservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\imedicalrecordservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\iprescriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\iprescriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\repository\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:repository\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214123555_Dbeight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241214123555_Dbeight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\appointmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\appointmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241213070921_dbsecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241213070921_dbsecond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\appointmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\appointmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\medicalrecordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\medicalrecordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\medicalrecordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\medicalrecordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\precriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\precriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241120091303_dbfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241120091303_dbfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241213092537_dbthree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241213092537_dbthree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241214124353_dbnine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241214124353_dbnine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241214123700_dbeight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241214123700_dbeight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241214113331_dbsix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241214113331_dbsix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241214110702_dbfive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241214110702_dbfive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241214101652_dbfour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241214101652_dbfour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|c:\\users\\apurva singhal\\onedrive\\desktop\\medisphere\\migrations\\20241214175522_dbten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048620B3-A9A9-4FB8-8090-7D9D0F39FF06}|MediSphere.csproj|solutionrelative:migrations\\20241214175522_dbten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAADAAAADAzMzMzMwMwDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:23:00.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:22:56.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGgAAACAzczMzMwmwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:17:55.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T09:07:53.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:05:28.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:43:15.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicalRecordController.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\MedicalRecordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicalRecordController.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\MedicalRecordController.cs",
+              "RelativeToolTip": "Controllers\\MedicalRecordController.cs",
+              "ViewState": "AgIAAEkAAACAMjMzMzMDwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:44:27.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\LoginRequestDto.cs",
+              "RelativeToolTip": "Dtos\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:27:43.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAMjMzMzPjvxYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:49:01.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicalRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\MedicalRecordRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MedicalRecordRepository.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\MedicalRecordRepository.cs",
+              "RelativeToolTip": "Repository\\MedicalRecordRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:08:49.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAAYAAAAgAAAAAAAgwDgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:22:37.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Repository\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IUserServices.cs",
+              "RelativeToolTip": "Repository\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:05:54.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\AuthResponseDto.cs",
+              "RelativeToolTip": "Dtos\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:28:33.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Dtos\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:26:53.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MediSphereDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Data\\MediSphereDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\MediSphereDbContext.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Data\\MediSphereDbContext.cs",
+              "RelativeToolTip": "Data\\MediSphereDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:58:34.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Models\\Prescription.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Prescription.cs",
+              "RelativeToolTip": "Models\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:48:54.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "Models\\MedicalRecord.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "Models\\MedicalRecord.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:48:36.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMedicalRecordServices.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IMedicalRecordServices.cs",
+              "RelativeDocumentMoniker": "Repository\\IMedicalRecordServices.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IMedicalRecordServices.cs",
+              "RelativeToolTip": "Repository\\IMedicalRecordServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:09:11.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAppointmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IAppointmentServices.cs",
+              "RelativeDocumentMoniker": "Repository\\IAppointmentServices.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IAppointmentServices.cs",
+              "RelativeToolTip": "Repository\\IAppointmentServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:08:18.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAUAAADQzMzMzMw9wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:48:03.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\AppointmentRepository.cs",
+              "RelativeToolTip": "Repository\\AppointmentRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:07:56.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:53:31.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\PatientRepository.cs",
+              "RelativeToolTip": "Repository\\PatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:06:15.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\DoctorRepository.cs",
+              "RelativeToolTip": "Repository\\DoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:07:06.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IDoctorServices.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IDoctorServices.cs",
+              "RelativeDocumentMoniker": "Repository\\IDoctorServices.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IDoctorServices.cs",
+              "RelativeToolTip": "Repository\\IDoctorServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:07:27.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IPrescriptionServices.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IPrescriptionServices.cs",
+              "RelativeDocumentMoniker": "Repository\\IPrescriptionServices.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IPrescriptionServices.cs",
+              "RelativeToolTip": "Repository\\IPrescriptionServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:09:48.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPatientServices.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IPatientServices.cs",
+              "RelativeDocumentMoniker": "Repository\\IPatientServices.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Repository\\IPatientServices.cs",
+              "RelativeToolTip": "Repository\\IPatientServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:06:42.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:53:12.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrescriptionController.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "Controllers\\PrescriptionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:45:10.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20241214175522_Dbten.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214175522_Dbten.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214175522_Dbten.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214175522_Dbten.cs",
+              "RelativeToolTip": "Migrations\\20241214175522_Dbten.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T17:55:23.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20241214124353_Dbnine.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214124353_Dbnine.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214124353_Dbnine.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214124353_Dbnine.cs",
+              "RelativeToolTip": "Migrations\\20241214124353_Dbnine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:43:53.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20241214123700_DbEight.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214123700_DbEight.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214123700_DbEight.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214123700_DbEight.cs",
+              "RelativeToolTip": "Migrations\\20241214123700_DbEight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:37:00.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241214123555_Dbeight.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214123555_Dbeight.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214123555_Dbeight.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214123555_Dbeight.cs",
+              "RelativeToolTip": "Migrations\\20241214123555_Dbeight.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:35:55.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20241214113331_DbSix.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214113331_DbSix.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214113331_DbSix.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214113331_DbSix.cs",
+              "RelativeToolTip": "Migrations\\20241214113331_DbSix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:33:31.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20241214110702_DbFive.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214110702_DbFive.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214110702_DbFive.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214110702_DbFive.cs",
+              "RelativeToolTip": "Migrations\\20241214110702_DbFive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:07:02.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppointmentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\AppointmentRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\AppointmentRequestDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\AppointmentRequestDto.cs",
+              "RelativeToolTip": "Dtos\\AppointmentRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:30:58.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20241214101652_DbFour.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214101652_DbFour.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241214101652_DbFour.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241214101652_DbFour.cs",
+              "RelativeToolTip": "Migrations\\20241214101652_DbFour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:16:52.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241213070921_DbSecond.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241213070921_DbSecond.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241213070921_DbSecond.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241213070921_DbSecond.cs",
+              "RelativeToolTip": "Migrations\\20241213070921_DbSecond.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T07:09:22.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20241213092537_DbThree.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241213092537_DbThree.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241213092537_DbThree.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241213092537_DbThree.cs",
+              "RelativeToolTip": "Migrations\\20241213092537_DbThree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:25:37.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:46:37.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:41:19.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppointmentResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\AppointmentResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\AppointmentResponseDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\AppointmentResponseDto.cs",
+              "RelativeToolTip": "Dtos\\AppointmentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:31:58.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MedicalRecordResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\MedicalRecordResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MedicalRecordResponseDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\MedicalRecordResponseDto.cs",
+              "RelativeToolTip": "Dtos\\MedicalRecordResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:33:49.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MedicalRecordRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\MedicalRecordRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MedicalRecordRequestDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\MedicalRecordRequestDto.cs",
+              "RelativeToolTip": "Dtos\\MedicalRecordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:33:13.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PrecriptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\PrecriptionDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PrecriptionDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\PrecriptionDto.cs",
+              "RelativeToolTip": "Dtos\\PrecriptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:37:05.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\PatientDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PatientDto.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Dtos\\PatientDto.cs",
+              "RelativeToolTip": "Dtos\\PatientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:30:08.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20241120091303_DbFirst.cs",
+              "DocumentMoniker": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241120091303_DbFirst.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241120091303_DbFirst.cs",
+              "ToolTip": "C:\\Users\\Apurva Singhal\\OneDrive\\Desktop\\MediSphere\\Migrations\\20241120091303_DbFirst.cs",
+              "RelativeToolTip": "Migrations\\20241120091303_DbFirst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:13:03.975Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
